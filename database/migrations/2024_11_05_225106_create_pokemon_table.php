@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nome');
             $table->string('tipo');
             $table->integer('pontos_de_poder');
+            $table->foreignId('coach_id')->references('id')->on('coaches');
             $table->timestamps();
         });
     }
