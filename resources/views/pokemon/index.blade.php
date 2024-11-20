@@ -9,6 +9,7 @@
                 <div class="bg-gray-800 rounded-md px-4 py-2 w-full text-center">
                     <p class="text-blue-500 text-sm font-semibold">{{ $entidade->tipo }}</p>
                     <p class="text-white text-m mt-1">Força: {{ $entidade->pontos_de_poder }}</p>
+                    <p class="text-white text-m mt-1">Treinador: {{ $entidade->name }}</p>
                 </div>
 
 
